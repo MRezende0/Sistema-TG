@@ -1,0 +1,104 @@
+.grupo_info{
+    .banner-init{
+        margin-bottom: 3.2rem;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 1.6rem;
+        h4{
+            max-width: 500px;
+            color: #00163D;
+        }
+
+        p{
+            font-size: 1.8rem;
+            line-height: 150%;
+            color: $gray-color-500;
+        }
+    }
+
+    .integrantes{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.4rem;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 3.2rem;
+
+        .integrantes-row{
+            width: 50%;
+
+            .title{
+                margin-bottom: 1.6rem;
+                color: $gray-color-200;
+            }
+
+            ul{
+                li{
+                    &:not(:last-child){
+                        margin-bottom: 1rem;
+                    }
+
+                    .integrantes-items{
+                        h6{
+                            color: $gray-color-400;
+                            font-weight: 400;
+                        }
+
+                        p{
+                            font-size: 1.6rem;
+                            line-height: 150%;
+                            color: #4D586B;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .projeto{
+        width: 100%;
+        margin-bottom:3.2rem;
+
+        .projeto-header{
+            @include flex(center, flex-start, row);
+            margin-bottom: .8rem;
+
+            h6{
+                margin-right: 1.6rem;
+            }   
+
+            p{
+                text-transform: uppercase;
+                color: $gray-color-600;
+            }
+        }
+
+        .projeto-arquivo{
+            width: 100%;
+            background-color: #E9EEFE;
+            padding: .8rem 1.6rem;
+            border-radius: 8px;
+            @include flex(center, space-between, row);
+
+            .projeto-title{
+                @include flex(center, space-between, row);
+
+                img{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: .8rem;
+                }
+
+                p{
+                    font-weight: 500;
+                    font-size: 1.6rem;
+                    line-height: 150%;
+                    color: $gray-color-300;
+                }
+            }
+
+            .edit{
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.grupo_aluno{
+
+    .start{
+        width: 100%;
+        max-width: 52rem;
+        margin: 0 auto;
+
+        img{
+            width: 30rem;
+            margin: 0 auto;
+            margin-bottom: 4rem;
+        }
+
+        .text{
+            @include flex(center, center, column);
+            h3{
+                font-size: 3.2rem;
+                line-height: 150%;
+                text-align: center;
+                color: $gray-color-200;
+                margin-bottom: .4rem;
+            }
+
+            p{
+                font-size: 1.6rem;
+                line-height: 125%;
+                text-align: center;
+                color: $gray-color-500;
+                margin-bottom: 2.4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.usuarios{
+    .header{
+        margin-bottom: 4.6rem;
+    }
+
+    .s-search{
+        margin-bottom: 4.6rem;
+
+        .search{
+            max-width: 40.5rem;
+            display: flex;
+            align-items: center;
+
+            .campo_input{
+                max-width: 27.5rem;
+                margin-right: 1.6rem;
+            }
+
+            p{
+                font-size: 1.6rem;
+                line-height: 150%;
+                color: $gray-color-400;
+                white-space: nowrap;
+
+            }
+        }
+    }
+
+
+    .table{
+        .table-btn{
+            img{
+                height: 2.4rem;
+            }
+        }
+    }
+}

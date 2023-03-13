@@ -1,0 +1,59 @@
+.dashboard{
+    .header{
+        margin-bottom: 4.8rem;        
+    }
+
+    .banner{
+        margin-bottom: 4.8rem;
+    }
+
+    .list{
+        &#entregas{
+            margin-bottom: 4rem;
+        }
+
+        .list-title{
+            color: $gray-color-400;
+            margin-bottom: 1.6rem;            
+        }
+
+        .teacher{
+            font-size: 16px;
+            line-height: 150%;
+            color: #4D586B;
+        }
+    }
+}
+
+.list-card{
+    .list-card-item{
+        .emphasis{
+            h5{
+                color: $brand-color-01;
+            }
+        }
+    }
+}
+
+.list-tg{
+    width: 100%;
+    margin-bottom: 4rem;    
+    .list-tg-card{
+        display: flex;
+        .list-tg-card-item{
+            @include flex(center, space-between, row);
+            cursor: pointer;
+            .text{  
+                width: 100%;       
+                max-width: 21.6rem;                
+                @include flex(center, flex-start, row);            
+                box-sizing: border-box;
+                border-radius: 8px;
+                padding-right: 1.6rem;
+                img{
+                    margin-right: 1.6rem;
+                }
+            }
+        }        
+    }
+}

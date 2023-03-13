@@ -1,0 +1,84 @@
+.perfil{
+    .profile-card{
+        width: 100%;
+        padding: 2.4rem;
+        border: 1px solid $gray-color-700;
+        border-radius: 8px;
+        @include flex(center, space-between, row);
+        margin-bottom:  4.0rem;
+
+        .perfil{
+           @include flex(center, flex-start, row);
+
+           .circulo{
+                width: 6.4rem;
+                height: 6.4rem;
+                border-radius: 50%;
+                margin-right: 2.4rem;
+                
+                img{
+                    object-fit: cover;
+                }
+           }
+
+           .text{
+               h4{
+                   margin-bottom: .4rem;
+                   color: $gray-color-300;
+               }
+
+               p{
+                   font-size: 1.8rem;
+                   color: $gray-color-600;
+
+               }
+           }
+        }
+    }
+
+    .info{
+        width: 100%;
+        display: flex;
+
+        .sessoes{
+            width: 50%;
+
+            h4{
+                color: $brand-color-03;
+                margin-bottom: 2.4rem;
+            }
+
+            ul{
+                li{
+                    .text{
+                        margin-bottom: 2.4rem;
+
+                        h6{
+                            font-family: 'Poppins';
+                            font-weight: 500;
+                            font-size: 1.6rem;
+                            line-height: 150%;
+                            color: $gray-color-600;
+                            margin-bottom: .4rem;
+                        }
+
+                        p{
+                            font-size: 1.6rem;
+                            line-height: 150%;
+                            color: #474C60;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        .perfil{
+            border-right: 1px solid #eee;
+        }
+
+        .trabalho{
+            padding-left: 2.4rem;
+        }
+    }
+}

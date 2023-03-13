@@ -1,0 +1,30 @@
+.list-card{    
+    .list-card-item{        
+        .text{            
+            display: column;   
+        }
+        img{
+            justify-content: space-between;
+            display:flex;
+            align-items: center;
+            cursor: pointer;
+        }        
+    }
+}
+.list-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .list-group-list{
+        display:column;
+        .list-group-item{ 
+            margin-bottom: 1.6rem;
+        }
+    }
+    img{
+        margin-top: 1.6rem;
+        justify-content: space-between;
+        display:flex;
+        align-items: center;
+    }
+}

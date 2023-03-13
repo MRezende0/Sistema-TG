@@ -1,0 +1,65 @@
+.modal{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    overflow-y: hidden;
+    display: none;
+
+    .background{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        cursor: pointer;
+    }
+
+    .modal-content{
+        width: 100%;
+        max-width: 48rem;
+        height: 80%;
+        padding: 4rem;
+        background-color: #fff;
+        margin: 10vh auto;
+        z-index: 2;
+        border-radius: 8px;
+
+        .modal-header{
+            width: 100%;
+            @include flex (center, space-between, row);
+            margin-bottom: 2.4rem;
+            
+            p{
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+                font-size: 2rem;
+                line-height: 150%;
+                color: $gray-color-300;
+            }
+        }
+
+        .modal-body{
+            width: 100%;
+            height: calc(100% - 12.6rem);
+            overflow-y: auto;
+            margin-bottom: 2.4rem;
+
+            .campo_input{
+                margin-bottom: 2.4rem;
+            }
+        }
+
+        .modal-footer{
+            width: 100%;
+            
+            button{
+                width: 100%;
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,57 @@
+.btn-primary{
+    display: inline-block;
+    line-height: 4.8rem;
+    background-color: $brand-color-01;
+    color: $light-color;
+    padding: 0 2.4rem;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: all 0.2s;
+    letter-spacing: 0.04rem;
+
+    &:hover{
+        opacity: .9;
+    }
+}
+
+.btn-danger{
+    display: inline-block;
+    line-height: 4.8rem;
+    background-color: $secondary-color;
+    color: $light-color;
+    padding: 0 2.4rem;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: all 0.2s;
+    letter-spacing: 0.04rem;
+
+    &:hover{
+        opacity: .9;
+    }
+}
+
+.btn-outline{
+    display: inline-block;
+    line-height: 4rem;
+    background-color: transition;
+    border: 2px solid $brand-color-01;
+    color: $brand-color-01;
+    padding: 0 2.4rem;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: all 0.2s;
+    letter-spacing: 0.04rem;
+
+    &:hover{
+        opacity: .9;
+    }
+}
